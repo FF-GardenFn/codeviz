@@ -156,16 +156,17 @@ codeviz bridge chat_export.json /path/to/your/project --print
 When planning a refactoring, you can use CodeViz to identify dependencies and similar code:
 
 1. Analyze the project:
-   ```bash
-   codeviz analyse . --summary --context --embeddings
-   ```
+ ```bash
+codeviz analyse . --summary --context --embeddings
+```
 
 2. Analyze semantic similarities to find potential code duplication:
-   ```bash
-   codeviz analyze_embeddings codeviz-report.json --threshold 0.85
-   ```
+```bash
+codeviz analyze_embeddings codeviz-report.json --threshold 0.85
+```
 
 3. Review the refactoring suggestions in the similarity report to identify areas for consolidation.
+
 
 ### Onboarding New Developers
 
@@ -198,8 +199,8 @@ To leverage AI assistants for development tasks:
    codeviz bridge chat_export.json . --output task_context.md
    ```
 
-3. Use the enhanced prompt to continue the conversation with the AI assistant, now with relevant code context included.
+3. Use the enhanced prompt to continue the conversation with the AI assistant of your choice but now with relevant code context included. The old days of wasting tokens trying to explain nested directories are done.
 
 4. Iterate on the development task, extracting new conversations and bridging them as needed.
 
-This workflow helps maintain context between AI assistant sessions and ensures the assistant has access to the most relevant code for the task at hand.
+This workflow helps maintain context between AI assistant sessions and ensures the assistant has access to the most relevant code for the task at hand. Thus, saving a considerable amoount of money to AI api calls. 

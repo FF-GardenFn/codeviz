@@ -34,7 +34,7 @@ CodeViz provides several commands for different tasks:
 - `codeviz analyze_embeddings`: Analyze semantic similarity between files based on their embeddings.
 - `codeviz similarity_to_prompt`: Convert a similarity report to a markdown prompt for use with LLMs.
 
-For detailed information about each command and its options, refer to the [Commands](../README.md#commands) section in the main README.
+For detailed information about each command and its options, please refer to the [Commands](../README.md#commands) section in the main README.
 
 ## Use Cases
 
@@ -56,4 +56,4 @@ If you'd like to contribute to CodeViz, please refer to the [Contributing](../RE
 
 ## License
 
-CodeViz is released under the MIT License. For more information, refer to the [License](../README.md#license) section in the main README.
+CodeViz is released under the MIT License. For more information, please refer to the [License](../README.md#license) section in the main README.
