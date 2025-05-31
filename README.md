@@ -278,7 +278,7 @@ Please make sure your code follows the project's coding style and includes appro
 
 MIT License
 
-Copyright (c) 2025 CodeViz Contributors
+Copyright (c) 2025 [Faycal Farhat](https://github.com/FF-GardenFn)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
