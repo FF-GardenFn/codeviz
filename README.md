@@ -1,4 +1,4 @@
-![Status](https://img.shields.io/badge/status-WIP-yellow)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/FF-GardenFn/codeviz)
