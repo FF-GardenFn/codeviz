@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codeviz"
+version = "0.1.0"
+description = "Code Analysis Tool"
+readme = "codeviz/README.md"
+authors = [
+    {name = "Faycal Farhat"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pydantic",
+    "pydantic-settings",
+    "typer==0.7.0",
+    "click==8.1.3",
+    "structlog",
+    "openai",
+    "pathlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+]
+
+[project.scripts]
+codeviz = "codeviz.cli:app"
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
